@@ -14,17 +14,19 @@
         <h1>
             mike<br>lind
         </h1>
-        <ul>
-            <li>
-                <a href="#about-me">About me</a>
-            </li>
-            <li>
-                <a href="#my-work">My work</a>
-            </li>
-            <li>
-                <a href="#contact-me">Contact me</a>
-            </li>
-        </ul>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#about-me">About me</a>
+                </li>
+                <li>
+                    <a href="#my-work">My work</a>
+                </li>
+                <li>
+                    <a href="#contact-me">Contact me</a>
+                </li>
+            </ul>
+        </nav>
     </header>
 
     <main>
@@ -40,24 +42,49 @@
                 Nunc nec ipsum ac dolor molestie feugiat. Mauris ac lorem sed enim cursus hendrerit. Suspendisse interdum aliquet nisi nec rutrum. Curabitur semper dignissim dui ac iaculis. Phasellus efficitur sapien nec orci pulvinar lobortis. Curabitur risus nulla, egestas non elit eget, commodo vulputate turpis. Nam nec orci dolor. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
             </p>
         </section>
-
+        <hr>
         <section id="my-work">
-            <img id="app-1" src="./assets/images/mountain.jpg"/>
+            <div class="large-image">
+                <img id="app-1" src="./assets/images/mountain.jpg" alt="mountain"/>
+                <p>App 1</p>
+            </div>
             <div class="small-image">
-                <img id="app-2" src="./assets/images/forest.jpg"/>
-                <img id="app-3" src="./assets/images/prairie.jpg"/>
-                <img id="app-4" src="./assets/images/rainforest.jpg"/>
-                <img id="app-5" src="./assets/images/river.png"/>
+                <div>
+                    <img id="app-2" src="./assets/images/forest.jpg" alt="forest"/>
+                    <p>App 2</p>
+                </div>
+                <div>
+                    <img id="app-3" src="./assets/images/prairie.jpg" alt="prairie"/>
+                    <p>App 3</p>
+                </div>
+                <div>
+                    <img id="app-4" src="./assets/images/rainforest.jpg" alt="rainforest"/>
+                    <p>App 4</p>
+                </div>
+                <div>
+                    <img id="app-5" src="./assets/images/river.png" alt="river"/>
+                    <p>App 5</p>
+                </div>
             </div>
         </section>
-
+        <hr>
         <section id="contact-me">
-
+            <h3>contact<br>me</h3>
+            <div>
+                <p>
+                    my-email@example.com
+                    <div></div>
+                    (123) 456-7890
+                    <div></div>
+                    1234 Main Street
+                    <br>
+                    Anytown, USA
+                </p>
+            </div>
         </section>
     </main>
 
     <footer>
-
     </footer>
 </body>
 
